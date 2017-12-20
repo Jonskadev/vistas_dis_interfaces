@@ -22,6 +22,11 @@ header figure#usm{
     display: inline;
     position: relative;
     float: left;
+    width: intrinsic;
+}
+
+header figure#usm img{
+    width: 70%;
 }
 
 header h1{
@@ -39,6 +44,81 @@ header figure#gym{
     position: relative;
 }
 
+nav{
+    position: absolute;
+    margin:0;
+    top: 120px;
+    height: 40px;
+    width: 100%;
+    background: dimgrey;
+}
+
+nav figure#home{
+    display: inline;
+    position: relative;
+    float: left;
+    width: intrinsic;
+    margin: 0;
+    top: 8px;
+    left: 10px;
+}
+
+nav figure#home img{
+    width: 60%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+    font-family: Calibri;
+}
+
+nav li input{
+    font-family: Calibri;
+}
+
+nav li button{
+    background-color: orange;
+    font-family: Calibri;
+}
+
+nav li button:hover {
+    background-color: deepskyblue;
+}
+
+section#title{
+    position: absolute;
+    display: table;
+    width: 100%;
+    top: 200px;
+}
+
+section#title h1{
+    text-align: center;
+    font-family: Calibri;
+    color: dimgrey;
+    font-size: 30pt;
+}
+
+section#description{
+    position: absolute;
+    background: lightgray;
+    bottom: 40px;
+    width: 100%;
+    height: 370px;
+}
+
 footer{
     position: absolute;
     background: dimgrey;
@@ -46,8 +126,7 @@ footer{
     padding: 0;
     display: table;
     width: 100%;
-    height: 30px;
-
+    height: 40px;
     bottom: 0%;
 }
 

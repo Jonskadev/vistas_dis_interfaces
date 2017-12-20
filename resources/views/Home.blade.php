@@ -26,13 +26,24 @@
             </figure>
         </header>
         <nav>
-
+            <figure id="home">
+                <img src="/images/Home.png">
+            </figure>
+            <ul>
+                <li><button type="button">Entrar</button></li>
+                <li><input type="text" value="Contraseña"></li>
+                <li><input type="text" value="Pasaporte USM"></li>
+                <li>| Acceso</li>
+            </ul>
         </nav>
-        <!--
-        <section>
+
+        <section id="title">
             <h1>
                 Gimnasio de Máquinas, Pesas y Aeróbica
             </h1>
+        </section>
+
+        <section id="description">
             <div id="right">
 
             </div>
@@ -43,7 +54,7 @@
 
             </div>
         </section>
-        -->
+
         <footer>
             <h1>© USM</h1>
         </footer>
