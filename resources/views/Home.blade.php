@@ -44,14 +44,35 @@
         </section>
 
         <section id="description">
-            <div id="right">
-
+            <div id="left">
+                <figure>
+                    <img src="/images/i.png">
+                </figure>
+                <h2>Descripción general</h2>
+                <p>
+                    El Gimnasio III ofrece actividades extra programáticas a la comunidad, con el fin de que los usuarios
+                    puedan aprovechar el tiempo libre durante su permanencia en la Universidad.
+                </p>
             </div>
             <div id="center">
-
+                <figure>
+                    <img src="/images/clock.png">
+                </figure>
+                <h2>Horario de atención</h2>
+                <h3>Lunes a Viernes</h3>
+                <p>09:00 a 21:00 horas</p>
+                <h3>Sábado</h3>
+                <p>09:00 a 17:25 horas.</p>
             </div>
-            <div id="left">
-
+            <div id="right">
+                <figure>
+                    <img src="/images/gps.png">
+                </figure>
+                <h2>Ubicación</h2>
+                <p>Edificio U,</p>
+                <p>subterráneo de Biblioteca.</p>
+                <p>Casa Central USM.</p>
+                <p>Fono: 32-2654134</p>
             </div>
         </section>
 

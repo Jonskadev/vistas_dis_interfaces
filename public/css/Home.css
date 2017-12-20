@@ -119,6 +119,65 @@ section#description{
     height: 370px;
 }
 
+section#description div#left{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    top: 20px;
+    left: 0;
+    width: 33.3%;
+    height: 350px;
+}
+
+section#description div#center{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    top: 20px;
+    left: 33.3%;
+    width: 33.3%;
+    height: 350px;
+}
+
+section#description div#right{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    top: 20px;
+    right: 0;
+    width: 33.3%;
+    height: 350px;
+}
+
+section#description div h2{
+    width: 50%;
+    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 15pt;
+    font-family: Calibri;
+    color: dimgrey;
+}
+
+section#description div p{
+    width: 50%;
+    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Calibri;
+    color: dimgrey;
+}
+
+section#description div h3{
+    width: 50%;
+    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 12pt;
+    font-family: Calibri;
+    color: dimgrey;
+}
+
 footer{
     position: absolute;
     background: dimgrey;
