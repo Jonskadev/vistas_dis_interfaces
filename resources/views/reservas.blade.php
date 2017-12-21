@@ -30,7 +30,7 @@
                 <img src="/images/Home.png">
             </figure>
             <ul>
-                <li><button type="button" onclick="window.location='{{ url("/reservas") }}'">Entrar</button></li>
+                <li><button type="button">Entrar</button></li>
                 <li><input type="text" value="Contraseña"></li>
                 <li><input type="text" value="Pasaporte USM"></li>
                 <li>| Acceso</li>
