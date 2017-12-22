@@ -31,22 +31,22 @@
             </figure>
             <ul>
                 <li>
-                    <a href="{{ url('Reservas') }}">
+                    <a href="{{ url('misreservas') }}">
                         <span>Mis Reservas</span> <!--<span class="separacion"></span>-->
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('Historial') }}">
-                        <span>Mi Historial</span> <!--<span class="separacion"></span>-->
+                    <a href="{{ url('reservas') }}">
+                        <span>Reservar</span> <!--<span class="separacion"></span>-->
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('Perfil') }}">
+                    <a>
                         <span>Mi Perfil</span> <!--<span class="separacion"></span>-->
                     </a>
                 </li>
-                <li><button type="button">Juan Pérez</button></li>
-                <li><button type="button">Salir</button></li>
+                <li><button type="button">Juan Pérez</button></li> 
+                <li><button onclick="location.href='{{ url('/') }}'">Salir</button></li>
             </ul>
         </nav>
 

@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('Perfil') }}">
+                    <a>
                         <span>Mi Perfil</span> <!--<span class="separacion"></span>-->
                     </a>
                 </li>
