@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('/reservas', function () {
     return view('reservas');
 });
+Route::get('/misreservas', 'MisReservasController@index');
