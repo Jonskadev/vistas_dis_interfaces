@@ -57,7 +57,6 @@ nav figure#home{
     display: inline;
     position: relative;
     float: left;
-    width: intrinsic;
     margin: 0;
     top: 8px;
     left: 10px;
@@ -68,6 +67,10 @@ nav figure#home img{
 }
 
 nav ul {
+    top: 12%;
+    left: 5%;
+    width: 94%;
+    position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -75,22 +78,29 @@ nav ul {
 }
 
 nav li {
-    float: right;
-    display: block;
+    display: inline;
     color: white;
-    text-align: center;
     padding: 9px 10px;
     text-decoration: none;
-    font-family: Calibri;
+    font-family: "Calibri";
 }
-
-nav li input{
-    font-family: Calibri;
+nav li a{
+    font-family: "Calibri";
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
 }
 
 nav li button{
-    background-color: orange;
-    font-family: Calibri;
+    border: none;
+    position: relative;
+    background: orange;
+    color: white;
+    left: 60%;
+    padding: 4px;
+    z-index: 1;
+    font-family: "Calibri";
 }
 
 nav li button:hover {
@@ -101,8 +111,16 @@ section#title{
     position: absolute;
     display: table;
     width: 100%;
-    height: 25%;
+    height: 17%;
     top: 160px;
+}
+
+section#title figure{
+    left: 15%;
+    position: absolute;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 section#title h1{
@@ -120,65 +138,82 @@ section#description{
     background: lightgray;
     bottom: 40px;
     width: 100%;
-    height: 45%;
+    height: 53%;
 }
 
-section#description div#left{
-    position: absolute;
-    display: inline;
-    text-align: center;
-    top: 20px;
-    left: 0;
-    width: 33.3%;
-    height: 350px;
+.tg{
+    position: relative;
+    table-layout: fixed;
+    border-spacing:0;
+    left: 5%;
+    top: 10%;
 }
-
-section#description div#center{
-    position: absolute;
-    display: inline;
-    text-align: center;
-    top: 20px;
-    left: 33.3%;
-    width: 33.3%;
-    height: 350px;
-}
-
-section#description div#right{
-    position: absolute;
-    display: inline;
-    text-align: center;
-    top: 20px;
-    right: 0;
-    width: 33.3%;
-    height: 350px;
-}
-
-section#description div h2{
-    width: 70%;
-    margin: 0;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 15pt;
+.tg td {
     font-family: Calibri;
-    color: dimgrey;
+    font-size:14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    width: 60px;
+    text-align: center;
 }
 
-section#description div p{
-    width: 70%;
-    margin: 0;
-    margin-left: 15%;
-    margin-right: 15%;
+.tg th{
     font-family: Calibri;
-    color: dimgrey;
+    font-size:14px;
+    font-weight:normal;
+    padding: 2px 2px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    width: 60px;
+    text-align: center;
 }
 
-section#description div h3{
-    width: 70%;
+.tg .tg-4q7z{
+    background-color:#3531ff;
+}
+
+.tg .tg-w6mb{
+    background-color:#333333;
+    color:#ffffff;
+
+}
+.tg .tg-lnzo{
+    background-color:#ffc965;
+}
+
+.tg .tg-cxkv{
+    background-color:#ffffff;
+}
+
+.tg .tg-5fb6{
+    background-color:#fe0000;
+}
+
+section#description div{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+
+section#description figure{
+    position: relative;
+    display: inline-block;
     margin: 0;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 12pt;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+section#description p{
+    position: relative;
+    display: inline-block;
     font-family: Calibri;
+    font-size: 20pt;
     color: dimgrey;
 }
 

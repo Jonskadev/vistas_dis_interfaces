@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('Home');
 });
 
-Route::get('/reservas', function () {
+Route::get('/Reservas', function () {
     return view('reservas');
 });
 Route::get('/misreservas', 'MisReservasController@index');

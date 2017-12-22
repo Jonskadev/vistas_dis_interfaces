@@ -12,7 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/Home.css">
+        <link rel="stylesheet" href="/css/reservas.css">
 
     </head>
     <body>
@@ -30,50 +30,189 @@
                 <img src="/images/Home.png">
             </figure>
             <ul>
-                <li><button type="button">Entrar</button></li>
-                <li><input type="text" value="Contraseña"></li>
-                <li><input type="text" value="Pasaporte USM"></li>
-                <li>| Acceso</li>
+                <li>
+                    <a href="{{ url('Reservas') }}">
+                        <span>Mis Reservas</span> <!--<span class="separacion"></span>-->
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url('Historial') }}">
+                        <span>Mi Historial</span> <!--<span class="separacion"></span>-->
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url('Perfil') }}">
+                        <span>Mi Perfil</span> <!--<span class="separacion"></span>-->
+                    </a>
+                </li>
+                <li><button type="button">Juan Pérez</button></li>
+                <li><button type="button">Salir</button></li>
             </ul>
         </nav>
 
         <section id="title">
+
+            <figure>
+                <img src="/images/maquina.png">
+            </figure>
+
             <h1>
-                Gimnasio de Máquinas, Pesas y Aeróbica
+                Agregar reserva en Sala de Máquinas
             </h1>
         </section>
 
         <section id="description">
-            <div id="left">
+
+            <table class="tg">
+                <tr>
+                    <th class="tg-w6mb" colspan="2">Bloques</th>
+                    <th class="tg-w6mb">Lunes</th>
+                    <th class="tg-w6mb">Martes</th>
+                    <th class="tg-w6mb">Miércoles</th>
+                    <th class="tg-w6mb">Jueves</th>
+                    <th class="tg-w6mb">Viernes</th>
+                    <th class="tg-w6mb">Sábado</th>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">9:00-10:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">10:00-11:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">11:00-12:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">12:00-13:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">13:00-14:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">14:00-14:30</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">14:30-15:30</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">15:30-16:30</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">16:30-17:00</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                    <td class="tg-5fb6">X</td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">17:00-18:00</td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-031e"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">18:00-19:00</td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-4q7z"></td>
+                    <td class="tg-031e"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">19:00-20:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-031e"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cxkv" colspan="2">20:00-21:00</td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-lnzo"></td>
+                    <td class="tg-031e"></td>
+                </tr>
+            </table>
+
+            <div>
                 <figure>
-                    <img src="/images/i.png">
+                    <img src="/images/alumnos.png">
                 </figure>
-                <h2>Descripción general</h2>
-                <p>
-                    El Gimnasio III ofrece actividades extra programáticas a la comunidad, con el fin de que los usuarios
-                    puedan aprovechar el tiempo libre durante su permanencia en la Universidad.
-                </p>
-            </div>
-            <div id="center">
+
+                <p>Alumnos</p>
+                <br>
                 <figure>
-                    <img src="/images/clock.png">
+                    <img src="/images/funcionario.png">
                 </figure>
-                <h2>Horario de atención</h2>
-                <h3>Lunes a Viernes</h3>
-                <p>09:00 a 21:00 horas</p>
-                <h3>Sábado</h3>
-                <p>09:00 a 17:25 horas.</p>
-            </div>
-            <div id="right">
+
+                <p>Funcionarios</p>
+                <br>
                 <figure>
-                    <img src="/images/gps.png">
+                    <img src="/images/nodisponible.png">
                 </figure>
-                <h2>Ubicación</h2>
-                <p>Edificio U,</p>
-                <p>subterráneo de Biblioteca.</p>
-                <p>Casa Central USM.</p>
-                <p>Fono: 32-2654134</p>
+
+                <p>No disponible para reservar</p>
+
             </div>
+
         </section>
 
         <footer>
