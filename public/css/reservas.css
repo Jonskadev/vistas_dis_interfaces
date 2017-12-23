@@ -117,10 +117,15 @@ section#title{
 
 section#title figure{
     left: 15%;
-    position: absolute;
-    display:table-cell;
+    display: table-cell;
     text-align: center;
     vertical-align: middle;
+    position: absolute;
+    width: intrinsic;
+}
+
+section#title figure img{
+    width: 70%;
 }
 
 section#title h1{
